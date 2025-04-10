@@ -6,7 +6,7 @@ class home extends Controller{
 	}
 
 	// Default method
-	public function index($name="Juan", $age="24"){
+	public function index($name="Juan", $age="abraham"){
 		// Associative Arrays (arrays with keys)
 		$arr_data['name'] = $name;
 		$arr_data['age'] = $age;
