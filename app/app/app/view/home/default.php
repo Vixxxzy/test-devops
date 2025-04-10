@@ -7,7 +7,7 @@ session_start();
 	
 	<p>I'm <?php echo $data['name']; ?> from Manado.</p>
 	
-	<p>I'm <?php echo $data['age']; ?> years old this year.</p>
+	<p>I'm <?php echo $data['age']; ?> years old this abaraham.</p>
 	<?php
 		echo "<b>User Session Information: </b><br>";
 		echo "<b>Session Role: </b>".$_SESSION['user-role']."<br>";
